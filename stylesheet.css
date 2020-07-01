@@ -1,0 +1,111 @@
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: url(https://i.pinimg.com/564x/34/a6/83/34a68357630ba7de37c3e5481928f465.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: blur(8px);
+}
+
+html {
+    font-family: "segoe ui";
+    
+}
+
+#title {
+  color: #F0F0F0;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  font-style: italic;
+  text-align: center;
+}
+
+h4 {
+  color: #FF0000;
+  font-size: 24px;
+}
+
+.fbox {
+  display: block;
+  width: 600px;
+  background-color: #F0F0F0;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  opacity: 50%;
+}
+
+#survey-form {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.form-group {
+  padding: 12px;
+}
+
+#name {
+  padding: 5px;
+}
+
+#name,
+#email,
+#number {
+  margin-top: 10px;
+}
+
+#name,
+#email,
+#number,
+#dropdown,
+#most-like{
+  border-radius: 5px;
+  padding: 5px;
+  width: 95%;
+  font-size: 15px;
+}
+
+#comments {
+  border-radius: 5px;
+  width: 95%;
+  height: 100px;
+  font-family: inherit;
+  font-size: 15px;
+}
+
+#submit {
+  border-radius: 5px;
+  width: 95%;
+  height: 40px;
+  background-color: #90ee90;
+  font: inherit;
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
+}
+
+
+
+
+.input-checkbox,
+.input-radio{
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+#description {
+}
